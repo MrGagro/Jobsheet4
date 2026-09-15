@@ -9,8 +9,13 @@ public class PemilihanBilangan08 {
 
         if (angka % 2 == 0) {
             System.out.println("Angka " + angka + " termasuk bilangan genap");
-        } else {
+        
+         } else {
             System.out.println("Angka " + angka + " termasuk bilangan ganjil");
-        }
+            System.out.println("ssssss");
+
+            input.close();
+         }
+         input.close();
     }
 }
